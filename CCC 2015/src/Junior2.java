@@ -3,12 +3,11 @@ import java.util.Scanner;
 public class Junior2 {
 
 	public static void main(String[] args) {
-		//initializing Scanner object
+		
 				Scanner input = new Scanner(System.in);
 				
-				//initializing variables
-				String text = input.nextLine();
 				
+				String text = input.nextLine();
 				int happyCount = 0;
 				int sadCount = 0;
 				
