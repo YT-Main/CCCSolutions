@@ -10,20 +10,21 @@ public class Junior1 {
 		int month = input.nextInt();
 		int day = input.nextInt();
 				
-		if(month == 1 && day < 18){
+		if(month <= 2 && day <= 18){
 			
 		System.out.println("Before");
 		
 		}
-		else if(month == 1 && day > 18){
+		else if(month == 2 && day == 18){
 			
 		System.out.println("Special");
 		
 		}
-		else if(month >= 1 && day == 18){
+		else if(month >= 2 && day >= 18){
 		
 			System.out.println("After");
 		}
+
 	}
 	
 }
